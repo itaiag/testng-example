@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Example">
+	<test name="Calculator">
+		<classes>
+			<class name="com.TestNGExample" />
+		</classes>
+	</test>
+	<test name="Login">
+		<classes>
+			<class name="com.DataProviderExample" />
+		</classes>
+	</test>
+	<parameter name="user-name" value="someUser"/>
+	<parameter name="password" value="s3cret"/>
+	<test name="Login With Parameters">
+	    <classes>
+	        <class name="com.ParametersExample"></class>
+	    </classes>
+	</test>
+</suite>
+  
